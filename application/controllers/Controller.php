@@ -113,7 +113,7 @@ class Controller extends MY_Controller
 
 	        $data['name'] = $this->security->xss_clean(trim($this->input->post('name')));
 	    	$data['email'] = $this->security->xss_clean(trim($this->input->post('email')));
-	        $data['password'] = $this->security->xss_clean(trim($this->input->post('password')));
+	        $data['password'] = $this->moiencode->encode($this->security->xss_clean(trim($this->input->post('password'))));
 
 	        $data['usernameErrorFlag'] = ( ( empty($data['name']) ) ? 1 : 0 );
 	        $data['emailErrorFlag'] = ( ( empty($data['email']) ) ? 1 : 0 );

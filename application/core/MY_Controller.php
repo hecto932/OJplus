@@ -33,7 +33,8 @@ class MY_Controller extends CI_Controller
         //INIT TIMEZONE
         ini_set('date.timezone', TIMEZONE);
 
-        
+        //Load MoiEncode
+        $this->load->library('MoiEncode');        
 
     }
     
