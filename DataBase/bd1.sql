@@ -1,0 +1,5 @@
+CREATE USER adminjuez WITH PASSWORD 'facyt_pro';
+
+CREATE DATABASE judge;
+
+GRANT ALL PRIVILEGES ON DATABASE judge TO adminjuez;
