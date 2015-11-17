@@ -1,0 +1,36 @@
+
+lun nov 16 15:27:15 VET 2015
+Language: cpp
+Time Limit: 30 s
+Memory Limit: 5120 kB
+SHIELD = 0
+RUN = 2
+Runtime error.
+Total Execution Time: 808 ms
+
+lun nov 16 15:28:00 VET 2015
+Language: cpp
+Time Limit: 30 s
+Memory Limit: 999999 kB
+SHIELD = 0
+RUN = 0
+COMPARE = 1
+Total Execution Time: 1225 ms
+
+lun nov 16 15:28:34 VET 2015
+Language: cpp
+Time Limit: 30 s
+Memory Limit: 999999 kB
+SHIELD = 0
+RUN = 0
+COMPARE = 1
+Total Execution Time: 870 ms
+
+lun nov 16 15:28:47 VET 2015
+Language: cpp
+Time Limit: 30 s
+Memory Limit: 999999 kB
+SHIELD = 0
+RUN = 0
+COMPARE = 1
+Total Execution Time: 863 ms
