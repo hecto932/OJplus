@@ -654,6 +654,7 @@ class User extends MY_Controller
 
     public function problem_new_check()
     {
+        echo "<pre>".print_r($_POST, true)."</pre>";
         if($this->process->CheckAdminUser())
         {
             if(!$this->process->checkLock())
