@@ -60,7 +60,7 @@ class MY_Controller extends CI_Controller
         if(isset($_POST['email'])  && isset($_POST['password']))
         {
             $data['email'] = $this->security->xss_clean(trim($this->input->post('email')));
-            $data['password'] = $this->security->xss_clean(trim($this->input->post('password')));
+            $data['password'] = $this->moiencode->encode($this->security->xss_clean(trim($this->input->post('password'))));
             $data['emailErrorFlag'] = ( ( empty($data['email']) ) ? 1 : 0 );
             $data['passwordErrorFlag'] = ( ( empty($data['password']) ) ? 1 : 0 );
 
