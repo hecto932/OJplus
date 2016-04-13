@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['index_page'] = '';
 
-$config['base_url'] = "";
+$config['base_url'] = "http://".$_SERVER['SERVER_NAME']."/";
 
 $config['upload_path'] = './uploads/';
 
